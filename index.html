@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>GifTastic</title>
+
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+  <div class="container">
+        <nav class="navbar">
+          <div class="col-lg-4 col-sm-6 bar">
+              <h1>Gif category search</h1>
+          </div>
+          <div class="col-lg-5 col-sm-6">
+            <form>
+              <input id="searchGIF" class="form" type="search" placeholder="Search" aria-label="Search">
+              <button id="searchBtn" class="btn" type="submit">Search</button>
+              <button id="clearBtn" class="btn" type="submit">Clear</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <br />
+      <div class="container">
+        <div class="card card-default">
+          <div class="card-body" id="appear">
+          </div>
+        </div>
+      </div>
+      </div>
+      <br />
+      <div class="container renderedGifs"></div>
+        <div id="renderedGifs" class="row">
+        </div>
+    
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="assets/js/main.js"></script>
+</body>
+</html>
